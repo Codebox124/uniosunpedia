@@ -24,46 +24,105 @@ export default function LatestBlog() {
                     <div className=' px-2 py-1'>
                         <span className='text-sm' >Lorem, ipsum dolor sit amet consectetur adipisicing elit. In culpa voluptatem deserunt a! Nihil, vitae?</span>
                     </div>
+                    <div className=' px-2 py-1 my-2'>
+                        <button className='py-1 border-b-2 border-green-500 text-sm font-bold'>Read More</button>
+                    </div>
                 </div>
                
             </div>
             <div></div>
           </div>
           <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-            ></div>
+            <div class="w-64 h-96 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <div className='text-start'>
+                    <img className='h-44 bg-contain w-full' src={blog1} alt="" />
+                    <div className=' px-2 py-1'>
+                        <h1 className='text-xl font-bold'>How to activate your portal</h1>
+                    </div>
+                    <div className=' px-2 py-1'>
+                        <span className='text-sm' >Lorem, ipsum dolor sit amet consectetur adipisicing elit. In culpa voluptatem deserunt a! Nihil, vitae?</span>
+                    </div>
+                    <div className=' px-2 py-1 my-2'>
+                        <button className='py-1 border-b-2 border-green-500 text-sm font-bold'>Read More</button>
+                    </div>
+                </div>
+               
+            </div>
+            <div></div>
           </div>
           <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-            ></div>
+            <div class="w-64 h-96 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <div className='text-start'>
+                    <img className='h-44 bg-contain w-full' src={blog1} alt="" />
+                    <div className=' px-2 py-1'>
+                        <h1 className='text-xl font-bold'>How to activate your portal</h1>
+                    </div>
+                    <div className=' px-2 py-1'>
+                        <span className='text-sm' >Lorem, ipsum dolor sit amet consectetur adipisicing elit. In culpa voluptatem deserunt a! Nihil, vitae?</span>
+                    </div>
+                    <div className=' px-2 py-1 my-2'>
+                        <button className='py-1 border-b-2 border-green-500 text-sm font-bold'>Read More</button>
+                    </div>
+                </div>
+               
+            </div>
+            <div></div>
           </div>
           <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-            ></div>
+            <div class="w-64 h-96 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <div className='text-start'>
+                    <img className='h-44 bg-contain w-full' src={blog1} alt="" />
+                    <div className=' px-2 py-1'>
+                        <h1 className='text-xl font-bold'>How to activate your portal</h1>
+                    </div>
+                    <div className=' px-2 py-1'>
+                        <span className='text-sm' >Lorem, ipsum dolor sit amet consectetur adipisicing elit. In culpa voluptatem deserunt a! Nihil, vitae?</span>
+                    </div>
+                    <div className=' px-2 py-1 my-2'>
+                        <button className='py-1 border-b-2 border-green-500 text-sm font-bold'>Read More</button>
+                    </div>
+                </div>
+               
+            </div>
+            <div></div>
           </div>
           <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-            ></div>
+            <div class="w-64 h-96 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <div className='text-start'>
+                    <img className='h-44 bg-contain w-full' src={blog1} alt="" />
+                    <div className=' px-2 py-1'>
+                        <h1 className='text-xl font-bold'>How to activate your portal</h1>
+                    </div>
+                    <div className=' px-2 py-1'>
+                        <span className='text-sm' >Lorem, ipsum dolor sit amet consectetur adipisicing elit. In culpa voluptatem deserunt a! Nihil, vitae?</span>
+                    </div>
+                    <div className=' px-2 py-1 my-2'>
+                        <button className='py-1 border-b-2 border-green-500 text-sm font-bold'>Read More</button>
+                    </div>
+                </div>
+               
+            </div>
+            <div></div>
           </div>
           <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-            ></div>
+            <div class="w-64 h-96 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <div className='text-start'>
+                    <img className='h-44 bg-contain w-full' src={blog1} alt="" />
+                    <div className=' px-2 py-1'>
+                        <h1 className='text-xl font-bold'>How to activate your portal</h1>
+                    </div>
+                    <div className=' px-2 py-1'>
+                        <span className='text-sm' >Lorem, ipsum dolor sit amet consectetur adipisicing elit. In culpa voluptatem deserunt a! Nihil, vitae?</span>
+                    </div>
+                    <div className=' px-2 py-1 my-2'>
+                        <button className='py-1 border-b-2 border-green-500 text-sm font-bold'>Read More</button>
+                    </div>
+                </div>
+               
+            </div>
+            <div></div>
           </div>
-          <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-            ></div>
-          </div>
-          <div class="inline-block px-3">
-            <div
-              class="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
-            ></div>
-          </div>
+        
         </div>
       </div>
 </div>
