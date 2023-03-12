@@ -1,12 +1,13 @@
 import blog1 from '../assets/nft1.png'
+import {Link} from "react-router-dom";
 export default function LatestBlog() {
     return (
       <div className='my-9'>
       
 <main class="py-12 md:px-20 sm:px-14 px-6">
   <div class="sm:flex items-center shadow-md">
-    <div class="md:px-10 sm:px-5">
-      <h1 class="text-gray-800 font-bold text-2xl my-2">long established</h1>
+    <div class="px-2 py-4">
+      <h1 class="text-gray-800 font-bold text-2xl my-2">How to Activate your portal</h1>
       <p class="text-gray-700 mb-2 md:mb-6">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
       <div class="flex justify-between mb-2">
         <span class="font-thin text-sm">May 20th 2020</span>
@@ -25,7 +26,7 @@ export default function LatestBlog() {
         <p class="text-gray-700 mb-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
         <div class="flex justify-between mt-4">
           <span class="font-thin text-sm">May 20th 2020</span>
-          <span class="mb-2 text-gray-800 font-bold">Read more</span>
+          <span class="mb-2 text-gray-800 font-bold"><Link to="/Singleblog">Read more</Link></span>
         </div>
       </div>
     </div>
