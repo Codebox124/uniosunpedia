@@ -12,7 +12,7 @@ export default function Header() {
     return (
      <div>
      <main>
-        <div className='text-black flex  justify-between items-center shadow-md py-5 container max-w-[1240px] capitalize h-25 mx-auto px-5'>
+        <div className='text-black flex  justify-between items-center shadow-md py-5 container max-w-[1240px] capitalize h-25 mx-auto px-5'git>
           <h1 className='w-full text-3xl font-bold text-[lightgreen] uppercase h-25 pt-4'> logo</h1>
           <ul className="hidden sm:flex font-bold ">
             <li className='p-3 cursor-pointer' >home</li>
