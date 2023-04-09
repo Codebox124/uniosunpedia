@@ -10,9 +10,11 @@
 
 
     <!-- Link Swiper's CSS -->
-    <!-- <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" > -->
+    <!-- <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" > -->\
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./home_assets/main.css">
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
 
@@ -22,7 +24,7 @@
 <body class="bg-white w-full ">
 <!-- header -->
 <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800">
-    <nav class=" w-full mx-auto px-12 sm:flex sm:items-center sm:justify-between py-3 my-10 box shadow-lg  fixed top-0 bg-white" aria-label="Global">
+    <nav class=" w-full mx-auto px-12 sm:flex sm:items-center sm:justify-between py-3 my-10 box shadow-lg  fixed top-0 bg-white z-50"  aria-label="Global">
       <div class="flex items-center justify-between">
         <a class="flex-none text-xl font-semibold dark:text-white" href="#"><span class="text-xl">Uniosun <span class="text-green-700">Pedia</span></span></a>
         <div class="sm:hidden ">
@@ -51,7 +53,7 @@
 <!-- /header -->
 
    <!-- hero -->
-   <div class="md:px-8 py-11 px-4 mt-24   grid md:grid-cols-1 lg:grid-cols-2  ">
+   <div class="md:px-8 py-11 px-4 mt-24   grid md:grid-cols-1 lg:grid-cols-2  " > 
     <div class="hidden lg:block">
       <img src="./asset/AdobeStock_504954575_Preview-removebg-preview.png" alt="">
      </div>
@@ -60,11 +62,11 @@
      <div>
          <h2 class="md:text-6xl text-4xl font-semibold">Free PDF(s) for <br>lectures </h2>
      </div>
-     <div class="py-9">
-         <span class="leading-9 md:text-2xl text-xl">Free lecture PDF(s) from Osun State University now available for <br> all
+     <div class="py-9" >
+         <span class="leading-9 md:text-2xl text-xl" > Free lecture PDF(s) from Osun State University now available for <br> all
              department and courses with all levels applicable. <br> 100% free </span>
      </div>
-     <div class="flex gap-4 md:py-8">
+     <div class="flex gap-4 md:py-8"> 
          <button class="px-6 bg-green-600 py-4 rounded-md font-bold text-white">Dowload PDF</button>
 
          <button class="px-6 bg-blue-600 py-4 rounded-md font-bold text-white">Contact Us</button>
@@ -84,7 +86,8 @@
   <div class="bg-green-500 px-6 py-20  rounded-xl " >
     <h2 class="text-center text-2xl md:text-5xl font-bold text-white ">How We work</h2>
     <div class="mt-20 md:mt-20  md:grid gap-3 grid-cols-3 ">
-        <div class="shadow-2xl py4 text-center h-72  px-4 ">
+        <div class="shadow-2xl py4 text-center h-72  px-4 " data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"">
             <div class="mt-10">
                 <h1 class="text-4xl font-bold text-white">What we stand for</h1>
 
@@ -93,7 +96,7 @@
                 <span class="text-gray-100 text-xl">Doing our part to make lecture material easy to access.PDF(s) from this site are gotton Strictly from Students,Lectures and web </span>
             </div>
         </div>
-        <div class=" shadow-2xl py-4 text-center h-72  px-4">
+        <div class=" shadow-2xl py-4 text-center h-72  px-4" data-aos="zoom-in">
             <div>
                 <h1 class="text-4xl font-bold text-white">Updating Always....</h1>
 
@@ -102,7 +105,8 @@
                 <span class="text-gray-100 text-xl">Lecture PDF(s) on this website are 100% free and will be updated weekly... swipe down to explore our PDF(s)</span>
             </div>
         </div>
-        <div class="shadow-2xl py-4 text-center h-72  px-4">
+        <div class="shadow-2xl py-4 text-center h-72  px-4" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"> 
             <div>
                 <h1 class="text-4xl font-bold text-white">Share your Thoughts</h1>
 
@@ -171,9 +175,9 @@
             </div>
         </div>
 
-        <div class="bg-white shadow-lg leading-10 md:px-24 px-20  grid grid-cols-2 rounded-3xl py-20 text-center">
+        <div class="bg-white shadow-lg leading-10 md:px-24 px-20  grid grid-cols-2 rounded-3xl py-20 text-center" data-aos="zoom-in">
            <div class="text-center">
-            <div class="flex gap-4 mb-4">
+            <div class="flex gap-4 mb-4" >
                 <div class="mt-1">
                     <img src="./asset/check-icon.png" alt="">
                 </div>
@@ -229,7 +233,7 @@
      <h2 class="text-center text-4xl md:text-7xl font-bold ">Our Team</h2>
     </div>
     <div class="grid  md:grid-cols-3 lg:grid-cols-4 justify-center items-center py-7  gap-8 mt-9 text-center">
-     <div class="mb-5">
+     <div class="mb-5" >
          <div class="justify-center items-center flex">
              <img class="rounded-full w-60 h-60" src="https://avatars.githubusercontent.com/u/105174934?v=4" alt="">
          </div>
@@ -488,8 +492,10 @@ class="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script> -->
 
 
-
     <!-- CUSTOM JS  -->
+    <script>
+      AOS.init({duration:2000});
+    </script>
 
 </body>
 
