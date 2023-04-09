@@ -55,7 +55,9 @@ body {
   margin: 0;
   /* 1 */
   line-height: inherit;
+
   /* 2 */
+  overflow: hidden;
 }
 
 /*
@@ -740,9 +742,9 @@ video {
   width: 1.25rem;
 }
 
-.max-w-\[\] {
+/* .max-w-\[\] {
   max-width: ;
-}
+} */
 
 .max-w-\[102\] {
   max-width: 102;
