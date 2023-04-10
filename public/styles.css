@@ -55,7 +55,9 @@ body {
   margin: 0;
   /* 1 */
   line-height: inherit;
+
   /* 2 */
+  overflow-x: hidden;
 }
 
 /*
@@ -217,7 +219,7 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  -webkit-appearance: button;
+-webkit-appearance: button;
   /* 1 */
   background-color: transparent;
   /* 2 */
@@ -761,6 +763,38 @@ video {
 
 .w-5 {
   width: 1.25rem;
+}
+
+/* .max-w-\[\] {
+  max-width: ;
+} */
+
+.max-w-\[102\] {
+  max-width: 102;
+}
+
+.max-w-\[1020px\] {
+  max-width: 1020px;
+}
+
+.max-w-\[1\] {
+  max-width: 1;
+}
+
+.max-w-\[10\] {
+  max-width: 10;
+}
+
+.max-w-\[1200\] {
+  max-width: 1200;
+}
+
+.max-w-\[1200px\] {
+  max-width: 1200px;
+}
+
+.max-w-\[1300px\] {
+  max-width: 1300px;
 }
 
 .max-w-\[1250px\] {
