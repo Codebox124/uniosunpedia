@@ -57,7 +57,7 @@ body {
   line-height: inherit;
 
   /* 2 */
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /*
@@ -219,7 +219,7 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  -webkit-appearance: button;
+-webkit-appearance: button;
   /* 1 */
   background-color: transparent;
   /* 2 */
@@ -743,7 +743,7 @@ video {
 }
 
 /* .max-w-\[\] {
-  max-width: ;
+  max-width:50 ;
 } */
 
 .max-w-\[102\] {
