@@ -298,7 +298,32 @@
 class="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
 <div
   class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
-  <div class="mr-12 hidden lg:block">
+  <div class="mr-12  block">
+    <div class="fixed bottom-4 right-4">
+      <button id="chatbot-btn" class="fixed z-90 bottom-10 right-8 bg-blue-600 w-20 h-20 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-blue-700 hover:drop-shadow-2xl hover:animate-bounce duration-300">&#9993;</button>
+    </div>
+    
+    <div id="chatbot-container" class="fixed bottom-16 right-4 w-96 bg-white shadow-lg rounded-lg p-4 hidden">
+      <div class="h-64 overflow-y-scroll">
+        <!-- Chat messages go here -->
+        <div class="my-2">
+          <span class="bg-blue-500 text-white py-1 px-2 rounded-full inline-block">UniosunBot</span>
+          <span class="bg-gray-200 py-1 px-2 rounded-full inline-block">Hello! How can I help you?</span>
+        </div>
+      </div>
+      <form class="mt-4">
+        <input type="text" placeholder="Type your message" class="w-full border border-gray-300 rounded-lg py-2 px-4">
+        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg mt-2 float-right">Send</button>
+      </form>
+    </div>
+    
+    <script>
+      const chatbotBtn = document.getElementById('chatbot-btn');
+      const chatbotContainer = document.getElementById('chatbot-container');
+      chatbotBtn.addEventListener('click', function() {
+        chatbotContainer.classList.toggle('hidden');
+      });
+    </script>
     <span>Get connected with us on social networks:</span>
   </div>
   <!-- Social network icons container -->
