@@ -55,9 +55,7 @@ body {
   margin: 0;
   /* 1 */
   line-height: inherit;
-
   /* 2 */
-  overflow-x: hidden;
 }
 
 /*
@@ -219,7 +217,7 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
--webkit-appearance: button;
+  -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
   /* 2 */
@@ -697,10 +695,6 @@ video {
   margin-right: 0.75rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .block {
   display: block;
 }
@@ -763,38 +757,6 @@ video {
 
 .w-5 {
   width: 1.25rem;
-}
-
-/* .max-w-\[\] {
-  max-width: ;
-} */
-
-.max-w-\[102\] {
-  max-width: 102;
-}
-
-.max-w-\[1020px\] {
-  max-width: 1020px;
-}
-
-.max-w-\[1\] {
-  max-width: 1;
-}
-
-.max-w-\[10\] {
-  max-width: 10;
-}
-
-.max-w-\[1200\] {
-  max-width: 1200;
-}
-
-.max-w-\[1200px\] {
-  max-width: 1200px;
-}
-
-.max-w-\[1300px\] {
-  max-width: 1300px;
 }
 
 .max-w-\[1250px\] {
@@ -907,22 +869,17 @@ video {
   border-radius: 1.5rem;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .rounded-l-lg {
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
-}
-
-.rounded-r-lg {
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
 }
 
 .border {
@@ -1132,11 +1089,6 @@ video {
 
 .text-7xl {
   font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-9xl {
-  font-size: 8rem;
   line-height: 1;
 }
 
@@ -1484,16 +1436,8 @@ video {
     margin-top: 8rem;
   }
 
-  .md\:mt-4 {
-    margin-top: 1rem;
-  }
-
   .md\:block {
     display: block;
-  }
-
-  .md\:flex {
-    display: flex;
   }
 
   .md\:grid {
@@ -1564,11 +1508,6 @@ video {
     font-size: 4.5rem;
     line-height: 1;
   }
-
-  .md\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -1599,21 +1538,11 @@ video {
   .lg\:text-left {
     text-align: left;
   }
-
-  .lg\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
-  }
 }
 
 @media (min-width: 1280px) {
   .xl\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .xl\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
   }
 }
 
