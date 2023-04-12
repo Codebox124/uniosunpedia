@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="./home_assets/main.css">
     <link rel="stylesheet" href="./styles.css">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 
-
-    <title>Dowload PdF</title>
+    <title>100l PdF</title>
 </head>
 <body>
   <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800">
@@ -49,67 +50,63 @@
      
     </nav>
   </header>
-      <div class="md:mt-32 mt-20 px-6 ">
-        <h1 class="text-7xl text-slate-600">Download PDF(s)
-        </h1>
-      </div>
-      <div class="grid lg:grid-cols-3 xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 px-6 text-center my-6" >
-       <a class="hover:opacity-40" href="./level-pdf-single.html">
-        <div class="">
-          <div class="justify-center items-center flex">
-              <img class="rounded-2xl" src="./asset/100l pic.jpg" alt="">
-          </div>
-          <div class="my-4">
-              <span class="text-2xl font-bold text-slate-700 ">100l</span>
-          </div>
-      </div>
-       </a>
-
-       <a class="hover:opacity-40"  href="">
-        <div class="">
-          <div class="justify-center items-center flex">
-              <img class="rounded-2xl" src="./asset/300l pic.jpg" alt="">
-          </div>
-          <div class="my-4">
-              <span class="text-2xl font-bold text-slate-700 ">200l</span>
-          </div>
-      </div>
-       </a>
-
-       <a class="hover:opacity-40" href="">
+  <div class="gg px-10">
+    <div class="md:mt-32 mt-20 px-6 py-4 md:grid ">
+      <h1 class=" text-7xl text-black">100l PDF(s)
+      </h1>
+    </div>
+  
+  
+    <div class="grid lg:grid-cols-3 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 px-6 text-center my-6 ">
+     <a class="" data-aos="fade-up" href="./level-pdf-single.html" >
       <div class="">
-        <div class="justify-center items-center flex">
-            <img class="rounded-2xl" src="./asset/200l.jpg" alt="">
+        <div class="justify-center items-center flex  inset-0 bg-black  hover:opacity-50 transition-opacity">
+            <img class="rounded-md" src="./asset/100l pic.jpg" alt="">
         </div>
         <div class="my-4">
-            <span class="text-2xl font-bold text-slate-700 ">300l</span>
+            <span class="text-2xl font-bold text-black ">100l</span>
         </div>
     </div>
      </a>
 
-     <a class="hover:opacity-40" href="">
-        <div class="">
-          <div class="justify-center items-center flex">
-              <img class="rounded-2xl" src="./asset/500l.jpg" alt="">
-          </div>
-          <div class="my-4">
-              <span class="text-2xl font-bold text-slate-700 ">400l</span>
-          </div>
-      </div>
-      </a>
-
-      <a class="hover:opacity-40" href="">
-          <div class="">
-            <div class="justify-center items-center flex">
-                <img class="rounded-2xl" src="./asset/400l.jpg" alt="">
-            </div>
-            <div class="my-4">
-                <span class="text-2xl font-bold text-slate-700 ">Donate</span>
-            </div>
+     <a class="" data-aos="zoom-in" href="">
+      <div class="">
+        <div class="justify-center items-center flex inset-0 bg-black  hover:opacity-50 transition-opacity">
+            <img class="rounded-md" src="./asset/300l pic.jpg" alt="">
         </div>
-        </a>
+        <div class="my-4">
+            <span class="text-2xl font-bold text-black ">200l</span>
+        </div>
+    </div>
+     </a>
 
+     <a class="" data-aos="fade-up" href="">
+    <div class="">
+      <div class="justify-center items-center flex inset-0 bg-black  hover:opacity-50 transition-opacity">
+          <img class="rounded-md" src="./asset/200l.jpg" alt="">
       </div>
+      <div class="my-4">
+          <span class="text-2xl font-bold text-black ">300</span>
+      </div>
+  </div>
+   </a>
+
+   <a class="" data-aos="zoom-in" href="">
+      <div class="">
+        <div class="justify-center items-center flex inset-0 bg-black  hover:opacity-50 transition-opacity">
+            <img class="rounded-md" src="./asset/500l.jpg" alt="">
+        </div>
+        <div class="my-4">
+            <span class="text-2xl font-bold text-black ">400l</span>
+        </div>
+    </div>
+    </a>
+
+   
+  
+
+    </div>
+  </div>
 
       <footer
 class="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
@@ -307,6 +304,8 @@ class="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text
 </div>
 </footer>
     
-
+<script>
+  AOS.init({duration:2000});
+</script>
 </body>
 </html>
