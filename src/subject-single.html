@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+        <!-- Link Swiper's CSS -->
+        <!-- <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" > -->\
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./home_assets/main.css">
+        <link href="/public/styles.css" rel="stylesheet">   
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"  rel="stylesheet" />
+    
+    
+    
+        <title></title>
+    </head>
+    
+<body>
+    <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800">
+        <nav class=" w-full mx-auto px-8 sm:flex sm:items-center sm:justify-between py-3 mb-10 box shadow-lg  fixed top-0 bg-white z-50"  aria-label="Global">
+          <div class="flex items-center justify-between">
+            <img src="./asset/THOU.png" alt="">
+            
+            <div class=" lg:hidden">
+              <button type="button" class=" hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" data-hs-collapse="#navbar-with-collapse" aria-controls="navbar-with-collapse" aria-label="Toggle navigation">
+                <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                <svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+              </button>
+            </div>
+            
+          </div>
+          <div id="navbar-with-collapse" class=" text-xl hidden basis-full grow md:block">
+            <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
+              <a class=" text-blue-500" href="../src/index.html" aria-current="page" style="font-size:1.1rem;">Home</a>
+              <a class=" text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="../src/pd.html" style="font-size:1.1rem;">Dowload PDF</a>
+              <a class=" text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#" style="font-size:1.1rem;">Blogs</a>
+              <a class=" text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500" href="#" style="font-size:1.1rem;">Contact Us</a>
+    
+              <a class="  hover:text-gray-400  dark:hover:text-gray-500 px-6 bg-green-600 py-4 rounded-md font-bold text-white" href="#" style="font-size:1.1rem; ">Donate PDF</a>
+    
+              
+    
+            </div>
+           
+          </div>
+         
+        </nav>
+      </header>
+
+      
+<div class="mt-10" >
+    <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        <span class="sr-only">Open sidebar</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+           <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+        </svg>
+     </button>
+     
+     <aside id="default-sidebar" class="fixed   md:my-10 top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+        <div class="h-full px-3 mt-10 py-4 overflow-y-auto  bg-gray-50 dark:bg-gray-800">
+           <ul class="space-y-2 font-medium">
+              <li>
+                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                    
+                    <span class="ml-3">MTH 101/105 </span>
+                 </a>
+              </li>
+              <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">CHM 101 </span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">PHY 101 </span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">BIO 101</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">GNS 101 </span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">GNS 103</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">GNS 211</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">STA 101</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">MEE 101</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">CSC 111</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">GNS 211</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">GNS 211</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">GNS 211</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">GNS 211</span>
+                </a>
+             </li>
+             <li>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                   
+                   <span class="ml-3">GNS 211</span>
+                </a>
+             </li>
+           </ul>
+        </div>
+     </aside>
+     
+     <div class="p-4 sm:ml-64">
+        <div class="p-4  rounded-lg dark:border-gray-700">
+           <div class="grid grid-cols-2 gap-9 mb-4 text-white">
+              <div class=" py-5 px-6 h-36 rounded-md bg-green-700 dark:bg-gray-800 ">
+                 <h2 class="text-2xl font-bold ">📄 Set theory</h2>
+                 <p class="text-md mt-6 text-gray-200">All questions related to set theory.</p>
+              </div>
+              <div class=" py-5 px-6 h-36 rounded-md bg-green-700 dark:bg-gray-800 ">
+                <h2 class="text-2xl font-bold ">📄 Ap and Gp</h2>
+                <p class="text-md mt-6 text-gray-200">All questions related to arithmetic and geometric.</p>
+             </div>
+             <div class=" py-5 px-6 h-36 rounded-md bg-green-700 dark:bg-gray-800 ">
+                <h2 class="text-2xl font-bold ">📄 Permutations and combinations</h2>
+                <p class="text-md mt-6 text-gray-200">All questions related to permutation and combination.</p>
+             </div>
+             <div class=" py-5 px-6 h-36 rounded-md bg-green-700 dark:bg-gray-800 ">
+                <h2 class="text-2xl font-bold ">📄 Binomial expansion</h2>
+                <p class="text-md mt-6 text-gray-200">All questions related to binomial expansion</p>
+             </div>
+             <div class=" py-5 px-6 h-36 rounded-md bg-green-700 dark:bg-gray-800 ">
+                <h2 class="text-2xl font-bold ">📄 Mathematical Induction</h2>
+                <p class="text-md mt-6 text-gray-200">All questions related to mathematical induction.</p>
+             </div>
+             <div class=" py-5 px-6 h-36 rounded-md bg-green-700 dark:bg-gray-800 ">
+                <h2 class="text-2xl font-bold ">📄 Trigonometry</h2>
+                <p class="text-md mt-6 text-gray-200">All questions related to trigonometry.</p>
+             </div>
+             <div class=" py-5 px-6 h-36 rounded-md bg-green-700 dark:bg-gray-800 ">
+                <h2 class="text-2xl font-bold ">📄 Calculus- Differentiation</h2>
+                <p class="text-md mt-6 text-gray-200">All questions related to calculus- differentiation.</p>
+             </div>
+             <div class=" py-5 px-6 h-36 rounded-md bg-green-700 dark:bg-gray-800 ">
+                <h2 class="text-2xl font-bold ">📄 Partial Fractions</h2>
+                <p class="text-md mt-6 text-gray-200">All questions related to partial fractions.</p>
+             </div>
+             <div class=" py-5 px-6 h-36 rounded-md bg-green-700 dark:bg-gray-800 ">
+                <h2 class="text-2xl font-bold ">📄 Matrix</h2>
+                <p class="text-md mt-6 text-gray-200">All questions related to matrix.</p>
+             </div>
+             <div class=" py-5 px-6 h-36 rounded-md bg-green-700 dark:bg-gray-800 ">
+                <h2 class="text-2xl font-bold ">📄 Equation</h2>
+                <p class="text-md mt-6 text-gray-200">All questions related to equation.</p>
+             </div>
+             
+           </div>
+   
+           
+        
+        </div>
+     </div>
+</div>
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>    
+</body>
+</html>
