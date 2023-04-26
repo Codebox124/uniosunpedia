@@ -1010,6 +1010,10 @@ input[type="range"]::-ms-fill-lower{
   margin-bottom: 1.25rem;
 }
 
+.mt-\[15\%\]{
+  margin-top: 15%;
+}
+
 .block{
   display: block;
 }
@@ -1112,6 +1116,18 @@ input[type="range"]::-ms-fill-lower{
 
 .w-\[2000px\]{
   width: 2000px;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[30\%\]{
+  width: 30%;
+}
+
+.w-\[40\%\]{
+  width: 40%;
 }
 
 .grow{
