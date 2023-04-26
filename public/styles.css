@@ -1115,6 +1115,70 @@ input[type="range"]::-ms-fill-lower {
   width: 100vw;
 }
 
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[0\%\] {
+  width: 0%;
+}
+
+.w-\[000\%\] {
+  width: 000%;
+}
+
+.w-\[00\%\] {
+  width: 00%;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[30\] {
+  width: 30;
+}
+
+.w-\[30px\] {
+  width: 30px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[2\] {
+  width: 2;
+}
+
+.w-\[10\] {
+  width: 10;
+}
+
+.w-\[10\%\] {
+  width: 10%;
+}
+
+.w-\[10em\] {
+  width: 10em;
+}
+
+.w-\[10rem\] {
+  width: 10rem;
+}
+
+.w-\[1em\] {
+  width: 1em;
+}
+
+.w-\[2000px\] {
+  width: 2000px;
+}
+
 .grow {
   flex-grow: 1;
 }
