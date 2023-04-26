@@ -986,6 +986,18 @@ input[type="range"]::-ms-fill-lower{
   margin-top: 6rem;
 }
 
+.mt-\[30\%\]{
+  margin-top: 30%;
+}
+
+.mt-\[50\%\]{
+  margin-top: 50%;
+}
+
+.mt-\[20\%\]{
+  margin-top: 20%;
+}
+
 .block{
   display: block;
 }
