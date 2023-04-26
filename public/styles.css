@@ -1030,38 +1030,6 @@ input[type="range"]::-ms-fill-lower {
   height: 9rem;
 }
 
-.h-\[1000px\] {
-  height: 1000px;
-}
-
-.h-\[100px\] {
-  height: 100px;
-}
-
-.h-\[00px\] {
-  height: 00px;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[50vh\] {
-  height: 50vh;
-}
-
-.h-\[100vh\] {
-  height: 100vh;
-}
-
-.h-\[50\] {
-  height: 50;
-}
-
 .w-full {
   width: 100%;
 }
@@ -1088,10 +1056,6 @@ input[type="range"]::-ms-fill-lower {
 
 .w-64 {
   width: 16rem;
-}
-
-.w-\[\] {
-  width: ;
 }
 
 .grow {
@@ -1249,6 +1213,10 @@ input[type="range"]::-ms-fill-lower {
   border-color: rgb(229 229 229 / var(--tw-border-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1317,10 +1285,6 @@ input[type="range"]::-ms-fill-lower {
 .bg-green-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(4 108 78 / var(--tw-bg-opacity));
-}
-
-.bg-transparent {
-  background-color: transparent;
 }
 
 .bg-cover {
@@ -1770,16 +1734,12 @@ input[type="range"]::-ms-fill-lower {
     display: none;
   }
 
-  .md\:w-auto {
-    width: auto;
-  }
-
-  .md\:w-\[\] {
-    width: ;
-  }
-
   .md\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .md\:w-auto {
+    width: auto;
   }
 
   .md\:grid-cols-1 {
@@ -1798,16 +1758,16 @@ input[type="range"]::-ms-fill-lower {
     justify-content: flex-start;
   }
 
-  .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(2rem * var(--tw-space-x-reverse));
-    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.5rem * var(--tw-space-x-reverse));
     margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:border-0 {
