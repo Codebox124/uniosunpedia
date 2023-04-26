@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+.about-bg {
+    background: url(/src/asset/about-bg.png) no-repeat center center/cover;
+    height: 400px;
+}
 
