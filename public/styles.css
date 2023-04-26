@@ -1118,9 +1118,7 @@ input[type="range"]::-ms-fill-lower{
   width: 2000px;
 }
 
-.w-\[\]{
-  width: ;
-}
+
 
 .w-\[30\%\]{
   width: 30%;
@@ -1655,6 +1653,11 @@ input[type="range"]::-ms-fill-lower{
 .text-gray-600{
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-\[\#005C54\]{
+  --tw-text-opacity: 1;
+  color: rgb(0 92 84 / var(--tw-text-opacity));
 }
 
 .shadow-xl{
