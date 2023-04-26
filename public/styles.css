@@ -937,10 +937,6 @@ input[type="range"]::-ms-fill-lower{
   margin-top: 2rem;
 }
 
-.mt-\[\%\]{
-  margin-top: %;
-}
-
 .mt-\[15\%\]{
   margin-top: 15%;
 }
@@ -1038,10 +1034,6 @@ input[type="range"]::-ms-fill-lower{
   flex-wrap: wrap;
 }
 
-.place-content-center{
-  place-content: center;
-}
-
 .items-center{
   align-items: center;
 }
@@ -1090,12 +1082,6 @@ input[type="range"]::-ms-fill-lower{
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-6 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-y-auto{
@@ -1234,14 +1220,14 @@ input[type="range"]::-ms-fill-lower{
   background-color: rgb(243 250 247 / var(--tw-bg-opacity));
 }
 
-.bg-green-300{
-  --tw-bg-opacity: 1;
-  background-color: rgb(132 225 188 / var(--tw-bg-opacity));
-}
-
 .bg-green-200{
   --tw-bg-opacity: 1;
   background-color: rgb(188 240 218 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-cover{
@@ -1349,16 +1335,6 @@ input[type="range"]::-ms-fill-lower{
   padding-right: 2.25rem;
 }
 
-.py-28{
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.py-16{
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
 .pl-3{
   padding-left: 0.75rem;
 }
@@ -1369,10 +1345,6 @@ input[type="range"]::-ms-fill-lower{
 
 .pt-20{
   padding-top: 5rem;
-}
-
-.pt-9{
-  padding-top: 2.25rem;
 }
 
 .text-center{
