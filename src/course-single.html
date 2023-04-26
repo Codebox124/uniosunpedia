@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+  
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./home_assets/main.css">
+        <link href="/public/styles.css" rel="stylesheet">   
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"  rel="stylesheet" />
+    
+    
+    
+        <title></title>
+    </head>
+    
+<body>
+   <nav class="bg-green-100 px-10  py-5 border-gray-200 dark:bg-gray-900 w-full z-10">
+      <div class="px-4 py-2 flex flex-wrap items-center justify-between mx-auto ">
+        <img src="./asset/THOU.png" alt="">
+        <button data-collapse-toggle="navbar-default" type="button"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto " id="navbar-default">
+          <ul
+            class="justify-center items-center font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+            <li>
+              <a href="./index.html"
+                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href=""
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+            </li>
+            <li>
+              <a href="#"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+            </li>
+            <li>
+              <a href="#"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+            </li>
+            <li>
+              <a href="#"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+            </li>
+            <li>
+              <a href="./course.html">
+                <button class="bg-green-700 rounded-md text-white py-2 px-5">Course</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      
+
+      
+
+      <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        <span class="sr-only">Open sidebar</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+           <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+        </svg>
+     </button>
+
+     <aside id="default-sidebar" class="fixed top-0 left-0  z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+        <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
+            <ul class="space-y-4 font-medium">
+                <li>
+                    <img src="./asset/THOU.png" alt="">
+                </li>
+                <li>
+                   <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                      
+                      <span class="ml-3">MTH 101/105 </span>
+                   </a>
+                </li>
+                <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">CHM 101 </span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">PHY 101 </span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">BIO 101</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">GNS 101 </span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">GNS 103</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">GNS 211</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">STA 101</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">MEE 101</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">CSC 111</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">GNS 211</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">GNS 211</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">GNS 211</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">GNS 211</span>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                     
+                     <span class="ml-3">GNS 211</span>
+                  </a>
+               </li>
+             </ul>
+        </div>
+     </aside>
+     
+
+     
+     <div class="p-4 sm:ml-64">
+        <div class="p-4  rounded-lg dark:border-gray-700">
+            <div class="mb-5">
+                <div>
+                    <h1 class="text-3xl font-bold">Set Theory</h1>
+                </div>
+                <div class="my-4">
+                    <span class="italic">Select the year you wish to download</span>
+                </div>
+            </div>
+           <div class="grid md:grid-cols-2 gap-9 mb-4 ">
+              <div data-aos="fade-up" class=" py-5 px-6 h-36 rounded-md bg-white border-4 border-green-700  dark:bg-gray-800 ">
+                 <h2 class="md:text-2xl text-xl font-bold ">📄 2009</h2>
+                 <p class="text-sm mt-6 text-gray-600">All questions related to set theory.</p>
+              </div>
+              <div data-aos="zoom-in" class=" py-5 px-6 h-36 rounded-md bg-white border-4 border-green-700  dark:bg-gray-800 ">
+                <h2 class="md:text-2xl text-xl font-bold ">📄  2010</h2>
+                <p class="text-sm mt-6 text-gray-600">All questions related to arithmetic and geometric.</p>
+             </div>
+             <div data-aos="fade-up" class=" py-5 px-6 h-36  rounded-md bg-white border-4 border-green-700  dark:bg-gray-800 ">
+                <h2 class="md:text-2xl text-xl font-bold ">📄  2011</h2>
+                <p class="text-sm mt-6 text-gray-600">All questions related to permutation and combination.</p>
+             </div>
+             <div data-aos="zoom-in" class=" py-5 px-6 h-36 rounded-md bg-white border-4 border-green-700  dark:bg-gray-800 ">
+                <h2 class="md:text-2xl text-xl font-bold ">📄  2012</h2>
+                <p class="text-sm mt-6 text-gray-600">All questions related to binomial expansion</p>
+             </div>
+             <div data-aos="fade-up" class=" py-5 px-6 h-36 rounded-md bg-white border-4 border-green-700  dark:bg-gray-800 ">
+                <h2 class="md:text-2xl text-xl font-bold ">📄 2013</h2>
+                <p class="text-sm mt-6 text-gray-600">All questions related to mathematical induction.</p>
+             </div>
+             <div data-aos="zoom-in" class=" py-5 px-6 h-36 rounded-md bg-white border-4 border-green-700 dark:bg-gray-800 ">
+                <h2 class="md:text-2xl text-xl font-bold ">📄 2014</h2>
+                <p class="text-sm mt-6 text-gray-600">All questions related to trigonometry.</p>
+             </div>
+             <div data-aos="fade-up" class=" py-5 px-6 h-36 rounded-md bg-white border-4 border-green-700  dark:bg-gray-800 ">
+                <h2 class="md:text-2xltext-xl font-bold ">📄 2015</h2>
+                <p class="text-sm mt-6 text-gray-600">All questions related to calculus- differentiation.</p>
+             </div>
+             <div data-aos="zoom-in" class=" py-5 px-6 h-36 rounded-md bg-white border-4 border-green-700  dark:bg-gray-800 ">
+                <h2 class="md:text-2xl text-xl font-bold ">📄  2016</h2>
+                <p class="text-sm mt-6 text-gray-600">All questions related to partial fractions.</p>
+             </div>
+             <div data-aos="zoom-in" class=" py-5 px-6 h-36 rounded-md bg-white border-4 border-green-700  dark:bg-gray-800 ">
+                <h2 class="md:text-2xl text-xl font-bold ">📄 2017</h2>
+                <p class="text-sm mt-6 text-gray-600">All questions related to matrix.</p>
+             </div>
+             <div data-aos="zoom-in" class=" py-5 px-6 h-36 rounded-md bg-white border-4 border-green-700  dark:bg-gray-800 ">
+                <h2 class="md:text-2xl text-xl font-bold ">📄  2018</h2>
+                <p class="text-sm mt-6 text-gray-600">All questions related to equation.</p>
+             </div>
+             <div data-aos="zoom-in" class=" py-5 px-6 h-36 rounded-md bg-white border-4 border-green-700  dark:bg-gray-800 ">
+                <h2 class="md:text-2xl text-xl font-bold ">📄  2019</h2>
+                <p class="text-sm mt-6 text-gray-600">All questions related to equation.</p>
+             </div>
+             <div data-aos="zoom-in" class=" py-5 px-6 h-36 rounded-md bg-white border-4 border-green-700  dark:bg-gray-800 ">
+                <h2 class="md:text-2xl text-xl font-bold ">📄  2020</h2>
+                <p class="text-sm mt-6 text-gray-600">All questions related to equation.</p>
+             </div>
+             <div data-aos="zoom-in" class=" py-5 px-6 h-36 rounded-md bg-white border-4 border-green-700  dark:bg-gray-800 ">
+                <h2 class="md:text-2xl text-xl font-bold ">📄  2021</h2>
+                <p class="text-sm mt-6 text-gray-600">All questions related to equation.</p>
+             </div>
+             <div data-aos="zoom-in" class=" py-5 px-6 h-36 rounded-md bg-white border-4 border-green-700  dark:bg-gray-800 ">
+                <h2 class="md:text-2xl text-xl font-bold ">📄  2022</h2>
+                <p class="text-sm mt-6 text-gray-600">All questions related to equation.</p>
+             </div>
+             
+           </div>
+   
+           
+        
+        </div>
+     </div>
+
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>    
+<script>
+    AOS.init({duration:2000});
+  </script>
+</body>
+</html>
