@@ -946,6 +946,14 @@ input[type="range"]::-ms-fill-lower{
   margin-top: 2.5rem;
 }
 
+.mb-20{
+  margin-bottom: 5rem;
+}
+
+.mb-32{
+  margin-bottom: 8rem;
+}
+
 .block{
   display: block;
 }
