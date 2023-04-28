@@ -899,6 +899,11 @@ input[type="range"]::-ms-fill-lower{
   margin-bottom: 5rem;
 }
 
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mt-\[15\%\]{
   margin-top: 15%;
 }
@@ -1124,6 +1129,10 @@ input[type="range"]::-ms-fill-lower{
   gap: 2.5rem;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
 .space-y-6 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1328,6 +1337,10 @@ input[type="range"]::-ms-fill-lower{
   background-color: rgb(242 244 244 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#D9D9D966\]{
+  background-color: #D9D9D966;
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -1452,6 +1465,11 @@ input[type="range"]::-ms-fill-lower{
   padding-bottom: 3.5rem;
 }
 
+.py-1{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .pl-3{
   padding-left: 0.75rem;
 }
@@ -1567,6 +1585,10 @@ input[type="range"]::-ms-fill-lower{
   line-height: 2.5rem;
 }
 
+.leading-6{
+  line-height: 1.5rem;
+}
+
 .text-links{
   --tw-text-opacity: 1;
   color: rgb(26 26 26 / var(--tw-text-opacity));
@@ -1630,6 +1652,10 @@ input[type="range"]::-ms-fill-lower{
 .text-green-700{
   --tw-text-opacity: 1;
   color: rgb(4 108 78 / var(--tw-text-opacity));
+}
+
+.text-\[\#0000004D\]{
+  color: #0000004D;
 }
 
 .underline{
@@ -1758,6 +1784,14 @@ input[type="range"]::-ms-fill-lower{
 
   .md\:w-\[70\%\]{
     width: 70%;
+  }
+
+  .md\:w-\[60\%\]{
+    width: 60%;
+  }
+
+  .md\:w-\[40\%\]{
+    width: 40%;
   }
 
   .md\:max-w-sm{
