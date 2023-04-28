@@ -1055,6 +1055,14 @@ input[type="range"]::-ms-fill-lower{
   width: 20%;
 }
 
+.w-\[40\%\]{
+  width: 40%;
+}
+
+.w-\[60\%\]{
+  width: 60%;
+}
+
 .max-w-4xl{
   max-width: 56rem;
 }
@@ -1156,6 +1164,12 @@ input[type="range"]::-ms-fill-lower{
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
 .overflow-y-auto{
@@ -1350,6 +1364,10 @@ input[type="range"]::-ms-fill-lower{
 
 .p-4{
   padding: 1rem;
+}
+
+.p-1{
+  padding: 0.25rem;
 }
 
 .py-5{
@@ -1601,6 +1619,11 @@ input[type="range"]::-ms-fill-lower{
   color: rgb(0 92 84 / var(--tw-text-opacity));
 }
 
+.text-\[\#555353\]{
+  --tw-text-opacity: 1;
+  color: rgb(85 83 83 / var(--tw-text-opacity));
+}
+
 .underline{
   text-decoration-line: underline;
 }
@@ -1719,6 +1742,14 @@ input[type="range"]::-ms-fill-lower{
 
   .md\:w-auto{
     width: auto;
+  }
+
+  .md\:w-\[\]{
+    width: ;
+  }
+
+  .md\:w-\[70\%\]{
+    width: 70%;
   }
 
   .md\:max-w-sm{
