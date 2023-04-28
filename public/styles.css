@@ -1163,6 +1163,16 @@ input[type="range"]::-ms-fill-lower{
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-y-8 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
 .overflow-y-auto{
   overflow-y: auto;
 }
@@ -1573,6 +1583,10 @@ input[type="range"]::-ms-fill-lower{
   font-weight: 500;
 }
 
+.font-light{
+  font-weight: 300;
+}
+
 .italic{
   font-style: italic;
 }
@@ -1678,6 +1692,10 @@ input[type="range"]::-ms-fill-lower{
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.hover\:font-bold:hover{
+  font-weight: 700;
+}
+
 .focus\:outline-none:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1752,6 +1770,10 @@ input[type="range"]::-ms-fill-lower{
 @media (min-width: 768px){
   .md\:mt-0{
     margin-top: 0px;
+  }
+
+  .md\:mb-0{
+    margin-bottom: 0px;
   }
 
   .md\:block{
