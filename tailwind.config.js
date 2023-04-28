@@ -20,6 +20,7 @@ module.exports = {
         primary: "#efefef",
         secondary: "#cfcfcf",
         links: "#1A1A1A",
+        lightGreen: "#E6F6F4",
       },
     },
   },
