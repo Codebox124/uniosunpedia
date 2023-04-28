@@ -1447,6 +1447,11 @@ input[type="range"]::-ms-fill-lower{
   padding-bottom: 3rem;
 }
 
+.py-14{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
 .pl-3{
   padding-left: 0.75rem;
 }
@@ -1745,6 +1750,14 @@ input[type="range"]::-ms-fill-lower{
 
   .md\:w-auto{
     width: auto;
+  }
+
+  .md\:w-\[\]{
+    width: ;
+  }
+
+  .md\:w-\[70\%\]{
+    width: 70%;
   }
 
   .md\:max-w-sm{
