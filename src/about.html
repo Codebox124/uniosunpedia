@@ -12,34 +12,60 @@
   <body class="">
     <header
       style="background-image: url(/src/asset/about-bg.png)"
-      class="bg-cover bg-no-repeat bg-center h-[100vh]"
+      class="bg-cover bg-no-repeat bg-center lg:h-[100vh]"
     >
-      <nav
-        class="bg-transparent py-5 w-full md:w-[80%] z-10 mx-auto flex justify-between items-center flex-wrap"
-      >
-        <div>
-          <img src="/src/asset/THOU.png" alt="" />
+    <nav class="bg-transparent md:px-10   py-5 border-gray-200 dark:bg-gray-900 w-full z-10">
+      <div class="px-4 py-2 flex flex-wrap items-center justify-between mx-auto ">
+       <h1 class="text-3xl font-bold text-white">ACASPEDIA</h1>
+        <button data-collapse-toggle="navbar-default" type="button"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto " id="navbar-default">
+          <ul
+            class="justify-center items-center font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+            <li>
+              <a href="./index.html"
+                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="./about.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+            </li>
+            <li>
+              <a href="./service.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+            </li>
+            <li>
+              <a href="./blog.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+            </li>
+            <li>
+              <a href="./contact.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+            </li>
+            <li>
+              <a href="./courses.html">
+                <button class="bg-green-700 rounded-md text-white py-2 px-5">Course</button>
+              </a>
+            </li>
+          </ul>
         </div>
-        <ul class="flex md:space-x-8 font-bold font-inter">
-          <li><a href="index.html" class="text-links">Home</a></li>
-          <li><a href="about.html" class="text-links">about</a></li>
-          <li><a href="service.html" class="text-links">Services</a></li>
-          <li><a href="blog.html" class="text-links">Blog</a></li>
-          <li><a href="contact.html" class="text-links">Contact</a></li>
-          <li>
-            <a
-              href="courses.html"
-              class="bg-[#00A396] text-white p-2 rounded-md"
-              >Courses</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <div class="w-[50%] mx-auto mt-[15%] text-center font-montserrat">
+      </div>
+    </nav>
+      <div class="lg:w-[50%] px-4 mx-auto  py-7 mt-[15%] text-center font-montserrat">
         <h1 class="text-5xl text-white mb-6 font-bold">
           About <span class="text-[#00CCBB]">Us</span>
         </h1>
-        <p class="text-white text-[25px] font-normal">
+        <p class="text-white md:text-[25px] text-xl font-normal">
           we’re a community that comes together to bring innovation with the
           means of technology and creativity, in university of Osun state. .
         </p>
@@ -304,7 +330,7 @@
               update from us.
             </span>
           </div>
-          <div class="flex flex-col md:flex-row mt-8 w-full">
+          <div class="hidden  md:flex flex-col md:flex-row mt-8 w-full">
             <input class="grow" type="text" name="" id="" />
             <button
               class="text-sm px-2 bg-green-600 rounded-tr-lg rounded-br-lg"
@@ -314,6 +340,13 @@
           </div>
         </div>
       </div>
+      <div class="mt-3 md:hidden">
+        <input class="w-full" type="text" name="" id="" />
+        <button
+          class="text-sm px-2 bg-green-600 rounded-tr-lg rounded-br-lg"
+        >
+          Subscribe
+        </button>
     </footer>
   </body>
 </html>
