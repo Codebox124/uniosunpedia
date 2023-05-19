@@ -10,21 +10,62 @@
     <title>Services</title>
 </head>
 <body class="">
-<header style="background-image: url(/src/asset/service-bg.png);"  class="bg-cover bg-no-repeat bg-center h-[100vh]">
-<nav class="bg-transparent py-5 w-full md:w-[80%] z-10 mx-auto flex justify-between items-center">
-   <div>
-    <img src="/src/asset/THOU.png" alt="">
-   </div>
-   <ul class="flex md:space-x-8 font-bold font-inter">
-    <li><a href="index.html" class="text-links">Home</a></li>
-    <li><a href="about.html" class="text-links">about</a></li>
-    <li><a href="service.html" class="text-links">Services</a></li>
-    <li><a href="blog.html" class="text-links">Blog</a></li>
-    <li><a href="contact.html" class="text-links">Contact</a></li>
-    <li><a href="courses.html" class="bg-[#00A396] text-white p-2 rounded-md">Courses</a></li>
-   </ul>
+<header style="background-image: url(/src/asset/service-bg.png);"  class="bg-cover bg-no-repeat bg-center lg:h-[100vh]">
+  <nav class="bg-transparent md:px-10   py-5 border-gray-200 dark:bg-gray-900 w-full z-10">
+    <div class="px-4 py-2 flex flex-wrap items-center justify-between mx-auto ">
+      <a href="index.html">
+      <img src="./asset/logo.png" alt="" />
+    </a>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto " id="navbar-default">
+        <ul
+          class="justify-center items-flex-start font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+          <li>
+            <a href="./index.html"
+              class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100
+              hover:text-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="./about.html"
+            class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100
+            hover:text-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          </li>
+          <li>
+            <a href="./service.html"
+            class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100
+            hover:text-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+          </li>
+          <li>
+            <a href="./blog.html"
+            class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100
+            hover:text-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+          </li>
+          <li>
+            <a href="./contact.html"
+            class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100
+            hover:text-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          </li>
+          <li>
+            <a href="./courses.html">
+              <button class="bg-green-700 rounded-md text-white py-2 px-5">Course</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
-<div class="w-[50%] mx-auto mt-[15%] text-center font-montserrat">
+<div class="lg:w-[50%] mx-auto mt-[15%] text-center font-montserrat pb-7">
   <h1 class="text-5xl text-white mb-6 font-bold">Our<span class="text-[#00CCBB]"> Service</span>  </h1>
   <p class="text-white text-[25px] font-normal">we’re a community that comes together to bring 
 innovation with the means of technology and 
@@ -41,7 +82,7 @@ creativity, in university of Osun state. .</p>
             <span class="text-2xl ">Some of the services we render are...</span>
         </div>
 
-        <div class="my-20 grid grid-cols-3 justify-center  gap-10">
+        <div class="my-20 grid grid-cols-1 md:grid-cols-3 justify-center  gap-10">
             <div>
                 <div class="flex justify-center">
                     <img src="./asset/service-icon.png" alt="">
@@ -154,10 +195,12 @@ creativity, in university of Osun state. .</p>
 
 <footer class="bg-green-800 px-7 py-20 text-white w-full overflow-hidden">
   <div class="mb-4">
-    <img src="./asset/THOU (1).png" alt="" />
+    <a href="index.html">
+      <img src="./asset/logo.png" alt="" />
+    </a>
   </div>
-  <div class="grid grid-cols-3 mt-10">
-    <div>
+  <div class="grid md:grid-cols-3 mt-10">
+    <div class="mb-10">
       <div class="mb-4">
         <h1 class="text-xl font-bold">Pages</h1>
       </div>
@@ -169,7 +212,7 @@ creativity, in university of Osun state. .</p>
       </ul>
     </div>
 
-    <div>
+    <div class="mb-10">
       <div class="mb-4">
         <h1 class="text-xl font-bold">Social Handles</h1>
       </div>
@@ -181,7 +224,7 @@ creativity, in university of Osun state. .</p>
       </ul>
     </div>
 
-    <div class="">
+    <div class="last">
       <div class="mb-4">
         <h1 class="text-xl font-bold">Don’t Miss Out!</h1>
       </div>
@@ -202,12 +245,24 @@ creativity, in university of Osun state. .</p>
     </div>
   </div>
   <div class="mt-3 md:hidden">
-    <input class="w-full" type="text" name="" id="" />
+    <input class="max-w-md" type="text" name="" id="" />
     <button
-      class="text-sm px-2 bg-green-600 rounded-tr-lg rounded-br-lg"
+      class="text-sm p-2.5 bg-green-600 rounded-tr-lg rounded-br-lg"
     >
-      Subscribe
+    Subscribe
     </button>
 </footer>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script> -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    <!-- CUSTOM JS  -->
+    <script>
+      AOS.init({ duration: 2000 });
+    </script>
 </body>
 </html>
