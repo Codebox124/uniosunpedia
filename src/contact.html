@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./indexStyle.css">
 
     <link rel="stylesheet" href="/public/styles.css" />
 
@@ -61,7 +62,7 @@
             </li>
             <li>
               <a href="./courses.html">
-                <button class="bg-green-700 rounded-md text-white py-2 px-5">Course</button>
+                <button class="bg-green-700 rounded-md text-white py-2 px-5 course-btn">Courses</button>
               </a>
             </li>
           </ul>
@@ -108,8 +109,8 @@
           </div>
 
           <div class="py-2  bg-green-600 text-white text-xl">
-            <marquee>Learn more with us . All years available . Past questions made available for you . Made by the student
-              council . Curriculum flexible to fit your time . Here for you . UniOsun, your place</marquee>
+            <marquee style="padding:.6rem 0;">Learn more with adequate past questions made available for you and Curriculum flexible to fit your time          ||             Created by <span style="color:#fff;" class="acaspedia">             Innovator's Circle.</span></marquee>
+
         
           </div>
           <div class="text-center">
@@ -122,15 +123,15 @@
                   <form action="#" class="space-y-8">
                       <div>
                           <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
-                          <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="example@gmail.com" required>
+                          <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light inputStyle" placeholder="example@gmail.com" required>
                       </div>
                       <div>
                           <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
-                          <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
+                          <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light inputStyle" placeholder="Let us know how we can help you" required>
                       </div>
                       <div class="sm:col-span-2">
                           <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
-                          <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                          <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 inputStyle" placeholder="Leave a comment..."></textarea>
                       </div>
                       <button type="submit" class="bg-green-500 px-5 py-2 text-white rounded-md">Send message</button>
                   </form>
