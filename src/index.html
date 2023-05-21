@@ -67,7 +67,7 @@
           </li>
           <li>
             <a href="./courses.html">
-              <button style="position:relative;bottom:.7rem;" class="bg-green-700 rounded-md text-white py-2 px-5">Courses</button>
+              <button class="bg-green-700 rounded-md text-white py-2 px-5 course-btn">Courses</button>
             </a>
           </li>
         </ul>
@@ -81,7 +81,7 @@
   <!-- hero -->
   <div 
   style="padding:0 3rem"
-  class="md:px-10 bg-green-100 pt-4 md:pt-20 px-4  gap-4 grid md:grid-cols-1 lg:grid-cols-2  ">
+  class="md:px-10 bg-green-100 pt-4 md:pt-20 px-4  gap-4 grid md:grid-cols-1 lg:grid-cols-2">
     <div class="md:px-10 md:py-32 ">
       <div>
         <h2 style="font-size:40px;line-height:48px;" class="md:text-6xl space-x-5 text-4xl font-semibold">Welcome to <span class="acaspedia">ACASPEDIA</span></h2>
@@ -109,7 +109,7 @@
     </div>
   </div>
 
-  <div class="bg-gray-100 md:px-10 mx-auto items-center py-10 px-4">
+  <div class="bg-gray-100 md:px-10 mx-auto items-center py-10 px-4 scroll-transition">
     <div style="padding:2rem 0" class="text-center py-5">
       <h1 class="text-3xl py-4 text-green-600 font-bold">BROWSER COURSE</h1>
       <span>Choose from a variety of past questions you’ll like to study</span>
@@ -162,7 +162,7 @@
     <marquee style="padding:.6rem 0;">Learn more with adequate past questions made available for you and Curriculum flexible to fit your time          ||             Created by <span style="color:#fff;" class="acaspedia">             Innovator's Circle.</span></marquee>
 
   </div>
-  <div class="bg-gray-100 md:px-10 mx-auto text-center items-center py-10 px-4">
+  <div class="bg-gray-100 md:px-10 mx-auto text-center items-center py-10 px-4 scroll-transition">
     <h1 class="text-4xl text-green-600 font-bold">Let’s Build The World Of Tech</h1>
     <div class="my-4">
       <span class="my-4 text-lg leading-10 space-x-8">
@@ -174,11 +174,11 @@
       <img src="./asset/Group 8779 (1).png" alt="">
     </div>
     <div class="flex justify-center my-10">
-      <button class="px-7 py-3 bg-green-500 text-white rounded-lg">View all</button>
+      <button style="position:relative;top:1rem;padding:1rem 3rem;" class="px-7 py-3 bg-green-500 text-white rounded-lg">View all</button>
     </div>
   </div>
 
-  <div class=" bg-green-100  pt-20 items-center  gap-4 grid md:grid-cols-1 lg:grid-cols-2 ">
+  <div style="padding:0 3rem" class=" bg-green-100  pt-20 items-center  gap-4 grid md:grid-cols-1 lg:grid-cols-2 scroll-transition">
     <div class="px-8">
       <div>
         <h1 class="text-3xl text-green-600 font-bold">What We Have To Offer</h1>
@@ -204,7 +204,7 @@
   </div>
 
 
-  <div class=" bg-gray-100  pt-20   gap-4 grid md:grid-cols-1 lg:grid-cols-2 ">
+  <div style="padding:3rem 3rem;" class=" bg-gray-100  pt-20   gap-4 grid md:grid-cols-1 lg:grid-cols-2 scroll-transition ">
     <div>
       <img class="w-[2000px]" src="./asset/Group 8781.png" alt="">
     </div>
@@ -244,8 +244,8 @@
   </div>
 
 
-  <div class=" bg-green-100 px-5  py-20 items-center">
-    <div class="text-center space-y-4">
+  <div class=" bg-green-100 px-5  py-20 items-center scroll-transition">
+    <div style="position:relative;padding:1rem 3rem;" class="text-center space-y-4">
       <h1 class="text-2xl font-bold text-green-600">BLOG</h1>
       <span class="text-xl">we give updates on what is going on within the school</span>
     </div>
@@ -314,7 +314,7 @@
   </div>
 
 
-  <footer class="bg-green-800 px-7 py-20 text-white w-full overflow-hidden">
+  <footer class="bg-green-800 px-7 py-20 text-white w-full overflow-hidden scroll-transition">
     <a href="index.html">
       <img src="./asset/logo.png" alt="" />
     </a>
@@ -393,7 +393,23 @@
   <script>
     AOS.init({ duration: 2000 });
   </script>
+<script>
+  function showOnScroll() {
+  var elements = document.getElementsByClassName("scroll-transition");
 
+  for (var i = 0; i < elements.length; i++) {
+    var element = elements[i];
+    var position = element.getBoundingClientRect().top;
+    var windowHeight = window.innerHeight;
+
+    if (position < windowHeight * 0.8) {
+      element.classList.add("show"); // Adds the "show" class to make the element visible
+    }
+  }
+}
+
+window.addEventListener("scroll", showOnScroll);
+</script>
 </body>
 
 </html>

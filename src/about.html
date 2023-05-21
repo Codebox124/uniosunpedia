@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <link rel="stylesheet" href="./indexStyle.css">
+    
     <link rel="stylesheet" href="/public/styles.css" />
 
     <title>About us</title>
@@ -60,14 +61,14 @@
             </li>
             <li>
               <a href="./courses.html">
-                <button class="bg-green-700 rounded-md text-white py-2 px-5">Course</button>
+                <button class="bg-green-700 rounded-md text-white py-2 px-5 course-btn">Courses</button>
               </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-      <div class="lg:w-[50%] px-4 mx-auto  py-7 mt-[15%] text-center font-montserrat">
+      <div class="lg:w-[50%] px-4 mx-auto  py-7 mt-[15%] text-center font-montserrat scroll-transition">
         <h1 class="text-5xl text-white mb-6 font-bold">
           About <span class="text-[#00CCBB]">Us</span>
         </h1>
@@ -79,7 +80,7 @@
     </header>
     <main class="bg-lightBg">
       <div
-        class="flex flex-col md:flex-row justify-between font-montserrat items-center w-[80%] mx-auto pt-10 md:space-x-9 pb-20 space-y-6 md:space-y-0"
+        class="flex flex-col md:flex-row justify-between font-montserrat items-center w-[80%] mx-auto pt-10 md:space-x-9 pb-20 space-y-6 md:space-y-0 scroll-transition"
       >
         <div class="text-center md:text-left md:w-[50%]">
           <h1 class="text-darkGreen font-bold text-3xl mb-2">OUR MISSION</h1>
@@ -96,7 +97,7 @@
     </main>
     <aside class="bg-lightGreen">
       <div
-        class="flex py-8 w-[80%] mx-auto  items-center flex-col-reverse md:flex-row"
+        class="flex py-8 w-[80%] mx-auto  items-center flex-col-reverse md:flex-row scroll-transition"
       >
         <div>
           <img src="./asset/vision.png" alt="" class="md:w-[80%]" />
@@ -114,7 +115,7 @@
       </div>
     </aside>
     <article class="bg-lightBg py-12">
-      <div class="md:w-[50%] mx-auto text-center md:max-w-xl">
+      <div class="md:w-[50%] mx-auto text-center md:max-w-xl scroll-transition">
         <h3 class="text-darkGreen font-bold text-3xl mb-2">Meet Our Leaders</h3>
         <p class="text-[20px] text-black">
           Meet our mentors in the tech field representing Nigeria association of
@@ -183,7 +184,7 @@
     </article>
 
     <section class="bg-lightGreen">
-      <div class="md:w-[80%] mx-auto py-4">
+      <div class="md:w-[80%] mx-auto py-4 scroll-transition">
         <div class="md:w-[50%] mx-auto text-center md:max-w-xl">
           <h3 class="text-darkGreen font-bold text-3xl mb-2">Our Team</h3>
           <p class="text-[20px] text-black">
@@ -231,7 +232,7 @@
       </div>
     </section>
     <section class="bg-lightBg py-14">
-      <div class="md:w-[40%] mx-auto text-center md:max-w-xl">
+      <div class="md:w-[40%] mx-auto text-center md:max-w-xl scroll-transition">
         <h3 class="text-darkGreen font-bold text-3xl mb-2">STUDENTS FAQ</h3>
         <p class="text-[20px] text-black">
           Curious about something?, check the frequently asked questions & if
@@ -297,7 +298,7 @@
       </div>
     </section>
 
-    <footer class="bg-green-800 px-7 py-20 text-white w-full overflow-hidden">
+    <footer class="bg-green-800 px-7 py-20 text-white w-full overflow-hidden scroll-transition">
       <div class="mb-4">
         <a href="index.html">
           <img src="./asset/logo.png" alt="" />
@@ -367,6 +368,23 @@
   <!-- CUSTOM JS  -->
   <script>
     AOS.init({ duration: 2000 });
+  </script>
+  <script>
+    function showOnScroll() {
+    var elements = document.getElementsByClassName("scroll-transition");
+  
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var position = element.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
+  
+      if (position < windowHeight * 0.8) {
+        element.classList.add("show"); // Adds the "show" class to make the element visible
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", showOnScroll);
   </script>
 
   </body>
