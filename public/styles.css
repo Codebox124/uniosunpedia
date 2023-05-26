@@ -839,6 +839,10 @@ input[type="range"]::-ms-fill-lower{
   border-width: 0;
 }
 
+.visible{
+  visibility: visible;
+}
+
 .fixed{
   position: fixed;
 }
@@ -1058,6 +1062,38 @@ input[type="range"]::-ms-fill-lower{
   width: 2000px;
 }
 
+.w-\[50px\]{
+  width: 50px;
+}
+
+.w-\[50p\]{
+  width: 50p;
+}
+
+.w-\[50\]{
+  width: 50;
+}
+
+.w-\[30\%\]{
+  width: 30%;
+}
+
+.w-\[20\%\]{
+  width: 20%;
+}
+
+.w-\[\%\]{
+  width: %;
+}
+
+.w-\[25\%\]{
+  width: 25%;
+}
+
+.w-\[0\%\]{
+  width: 0%;
+}
+
 .max-w-md{
   max-width: 28rem;
 }
@@ -1109,6 +1145,14 @@ input[type="range"]::-ms-fill-lower{
 
 .justify-between{
   justify-content: space-between;
+}
+
+.justify-around{
+  justify-content: space-around;
+}
+
+.justify-items-center{
+  justify-items: center;
 }
 
 .gap-5{
@@ -1388,6 +1432,26 @@ input[type="range"]::-ms-fill-lower{
 
 .p-3{
   padding: 0.75rem;
+}
+
+.p-6{
+  padding: 1.5rem;
+}
+
+.p-10{
+  padding: 2.5rem;
+}
+
+.p-8{
+  padding: 2rem;
+}
+
+.p-7{
+  padding: 1.75rem;
+}
+
+.p-5{
+  padding: 1.25rem;
 }
 
 .py-5{
@@ -1890,6 +1954,30 @@ input[type="range"]::-ms-fill-lower{
     width: 40%;
   }
 
+  .md\:w-\[25\%\]{
+    width: 25%;
+  }
+
+  .md\:w-\[30\%\]{
+    width: 30%;
+  }
+
+  .md\:w-\[22\%\]{
+    width: 22%;
+  }
+
+  .md\:w-\[24\%\]{
+    width: 24%;
+  }
+
+  .md\:w-\[2\%\]{
+    width: 2%;
+  }
+
+  .md\:w-\[23\%\]{
+    width: 23%;
+  }
+
   .md\:max-w-sm{
     max-width: 24rem;
   }
@@ -1947,21 +2035,6 @@ input[type="range"]::-ms-fill-lower{
   .md\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-  }
-
-  .md\:py-9{
-    padding-top: 2.25rem;
-    padding-bottom: 2.25rem;
-  }
-
-  .md\:py-20{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
-  .md\:py-1{
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
   }
 
   .md\:py-32{
