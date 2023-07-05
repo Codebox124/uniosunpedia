@@ -839,6 +839,10 @@ input[type="range"]::-ms-fill-lower{
   border-width: 0;
 }
 
+.visible{
+  visibility: visible;
+}
+
 .fixed{
   position: fixed;
 }
@@ -1056,6 +1060,22 @@ input[type="range"]::-ms-fill-lower{
 
 .w-\[2000px\]{
   width: 2000px;
+}
+
+.w-\[200px\]{
+  width: 200px;
+}
+
+.w-\[px\]{
+  width: px;
+}
+
+.w-\[1px\]{
+  width: 1px;
+}
+
+.w-\[1000px\]{
+  width: 1000px;
 }
 
 .max-w-md{
@@ -1949,24 +1969,14 @@ input[type="range"]::-ms-fill-lower{
     padding-right: 2.5rem;
   }
 
-  .md\:py-9{
-    padding-top: 2.25rem;
-    padding-bottom: 2.25rem;
+  .md\:py-32{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 
   .md\:py-20{
     padding-top: 5rem;
     padding-bottom: 5rem;
-  }
-
-  .md\:py-1{
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-  }
-
-  .md\:py-32{
-    padding-top: 8rem;
-    padding-bottom: 8rem;
   }
 
   .md\:pt-20{
